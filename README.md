@@ -1,4 +1,4 @@
-# Cloudflare Docker Proxy (Multi-Registry Edition)
+# Docker Proxy on Cloudflare Workers
 
 基于 Cloudflare Workers 的高性能 Docker 多源镜像代理工具。 一站式加速 Docker Hub、GHCR、Quay、NVCR 等主流仓库，原生支持断点续传与 Docker Hub 配额优化，并具备 302 重定向智能处理及路径混淆等安全特性。
 
