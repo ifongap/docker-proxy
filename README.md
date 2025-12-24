@@ -1,6 +1,6 @@
 # Cloudflare Docker Proxy (Multi-Registry Edition)
 
-在维护 HomeServer 或进行云原生开发时，镜像拉取速度和稳定性往往是最大的痛点。本项目是一个高性能、无服务器（Serverless）的解决方案，旨在通过 Cloudflare 全球网络为你的容器环境提供全方位的镜像加速服务。
+基于 Cloudflare Workers 的高性能 Docker 多源镜像代理工具。 一站式加速 Docker Hub、GHCR、Quay、NVCR 等主流仓库，原生支持断点续传与 Docker Hub 配额优化，并具备 302 重定向智能处理及路径混淆等安全特性。
 
 ### 🌟 特色功能
 - **多源支持**: 统一代理 Docker Hub, GHCR, Quay, NVCR, AWS ECR 等主流仓库。
